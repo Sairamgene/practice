@@ -1,16 +1,18 @@
 import React from 'react'
 
+
+
 function Login() {
   return (
     <div>
       <div>
-      <label>user name</label>
-      <input type='text'></input>
+      <label style={{ color: 'blue' }}>user name</label>
+      <input type='text' placeholder='enter your username'></input>
 </div>
 
       <div>
       <label>Password</label>
-      <input type='password'></input>
+      <input type='password' placeholder='enter your password'></input>
 </div>
 <button type='submit'>Login</button>
 
